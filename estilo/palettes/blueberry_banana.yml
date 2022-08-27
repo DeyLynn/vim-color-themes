@@ -1,0 +1,22 @@
+# Special Colors
+background:         '#17141F'         # background color
+foreground:         '#ECF0C1'
+visualSel:          '#308db8'
+cursorLine:         '#3f2f45'        # defines cursor-line bg color
+
+# Base Colors
+yellow:             '#e6c62f'         # controlflow/conditional, builtin obj, function
+orange:             '#E07D13'         # use for strings, digits, parameters, and delimiter
+lightBlue:          '#39dcdc'         # use for git additions
+mutedBlue:          '#56B6C2'         
+darkBlue:           '#495162'         # use for inactive numberline foreground
+midBlue:            '#314365'         # use for search matches
+lightPink:          '#e06c75'         # function calls and logic operators (python 'in' keyword)
+berryPink:          '#b9355d'         # operators
+red:                '#c24038'         # use for error messages
+gitGreen:           '#29e7ae'         # for git repo additions
+grey:               '#151920'         # use for suggestion pmenu
+lightGrey:          '#2c313a'         # use for suggestion pmenu selection
+midPurple:          '#625576'         # use for comments
+activePurple:       '#220525'         # active tabline selection
+pureBlack:          '#000000'     

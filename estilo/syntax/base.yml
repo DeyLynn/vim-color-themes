@@ -1,0 +1,108 @@
+# BASE UI
+ColorColumn: '- cursorLine'
+Conceal: 'activePurple'
+Cursor: 'pureBlack foreground'
+CursorIM: '@Cursor'
+CursorColumn: '- cursorLine'
+CursorLine: '- cursorLine'
+CursorLineNr: 'foreground cursorLine'
+Directory: 'lightPink -'
+DiffAdd: 'lightBlue visualSel'
+DiffChange: 'gitGreen visualSel'
+DiffDelete: 'red visualSel'
+DiffText: 'lightBlue visualSel'
+ErrorMsg: 'red'
+VertSplit: 'midPurple background'
+Folded: 'cursorLine background'
+FoldColumn: 'cursorLine background'
+SignColumn: 'midPurple background'
+IncSearch: 'foreground midPurple'
+LineNr: 'darkBlue background'
+MatchParen: 'foreground cursorLine'
+ModeMsg: 'lightPink' # foreground  insert/visual/etc.
+MoreMsg: '@ModeMsg'
+Normal: 'foreground background'
+PMenu: 'foreground grey'
+PMenuSel: 'foreground lightGrey'
+PmenuSbar: '- yellow'
+PmenuThumb: '- lightGrey'
+Question: '@ModeMsg'
+Search: '- midBlue'
+SpecialKey: 'foreground background'
+SpellBad: '- - u'
+SpellLocal: '- - u'
+SpellCap: 'lightBlue - u'
+SpellRare: 'gitGreen - u'
+StatusLine: 'grey yellow'
+StatusLineNC: 'foreground background'
+TabLine: 'berryPink background' 
+TabLineFill: 'berryPink background' # unselected tab
+TabLineSel: 'gitGreen background'
+Title: '@ModeMsg'
+Visual: '- visualSel'
+VisualNOS: '@Visual'
+WarningMsg: 'orange background'
+WildMenu: 'foreground grey'
+EndOfBuffer: 'darkBlue background'
+NonText: '@EndOfBuffer'
+# BASE SYNTAX
+Comment: 'midPurple -'
+Constant: 'yellow'
+String: 'orange' # Constant
+Character: '@Constant' # Constant
+Boolean: 'mutedBlue' # Constant
+Number: 'orange' # Constant
+Float: '@Number' # Constant
+Identifier: 'yellow'
+Function: 'lightBlue' # Identifier
+Statement: 'yellow'
+Conditional: 'yellow' # Statement
+Repeat: 'yellow' # Statement
+Label: 'berryPink' # Statement
+Operator: 'berryPink' # Statement
+Keyword: 'yellow' # Statement
+Exception: 'yellow' # Statement
+PreProc: 'lightPink'
+Include: 'yellow' # PreProc
+Define: 'yellow' # PreProc
+Macro: '@PreProc' # PreProc
+PreCondit: '@PreProc' # PreProc
+Type: 'yellow'
+StorageClass: 'lightPink' # Type
+Structure: '@Type' # Type
+Typedef: '@lightPink' # Type
+Special: 'orange'
+SpecialChar: '@Special' # Special
+Tag: '@Special' # Special
+Delimiter: 'orange' # Special
+SpecialComment: '@Special' # Special
+Debug: '@Special' # Special
+Underlined: 'foreground background u'
+Ignore: 'red'
+Error: 'red'
+Todo: 'gitGreen'
+
+
+
+# python
+pythonStatement: 'yellow' # Statement
+pythonConditional: 'yellow' # Conditional
+pythonRepeat: 'yellow' # Repeat
+pythonOperator: 'berryPink' # Operator
+pythonException: 'yellow' # Exception
+pythonInclude: 'yellow' # Include
+pythonDecorator: 'mutedBlue' # Define
+pythonFunction: 'lightBlue' # Function
+pythonComment: 'midPurple' # Comment
+pythonTodo: 'gitGreen' # Todo
+pythonString: 'orange' # String
+pythonRawString: 'orange' # String
+pythonQuotes: 'orange' # String
+pythonTripleQuotes: 'midPurple' # pythonQuotes
+pythonEscape: 'mutedBlue' # Special
+pythonNumber: 'orange' # Number
+pythonBuiltin: 'berryPink' # Function
+pythonExceptions: '@pythonException' # Structure
+pythonSpaceError: 'berryPink background u' # Error
+pythonDoctest: 'midPurple' # Special
+pythonDoctestValue: 'lightPink' # Define

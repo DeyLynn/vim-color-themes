@@ -1,0 +1,10 @@
+name: 'blueberry_banana'
+version: '1.0.0'
+license: 'MIT'
+author: 'Dey Lynn'
+url: ''
+description: 'Inspired by the VSCode color theme'
+colorschemes:
+  - name: 'blueberry_banana'
+    background: 'dark'
+    palette: 'blueberry_banana'
