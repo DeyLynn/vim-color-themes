@@ -4,7 +4,7 @@
 " URL: 
 " Author: Dey Lynn
 " License: MIT
-" Last Change: 2022/08/28 08:11
+" Last Change: 2022/08/28 08:47
 " ===============================================================
 
 set background=dark
@@ -63,9 +63,9 @@ hi SpellCap guifg=#39dcdc ctermfg=80 guibg=NONE ctermbg=NONE gui=underline cterm
 hi SpellRare guifg=#29e7ae ctermfg=43 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi StatusLine guifg=#151920 ctermfg=234 guibg=#e6c62f ctermbg=184 gui=NONE cterm=NONE
 hi StatusLineNC guifg=#ECF0C1 ctermfg=255 guibg=#17141F ctermbg=234 gui=NONE cterm=NONE
-hi TabLine guifg=#b9355d ctermfg=131 guibg=#17141F ctermbg=234 gui=NONE cterm=NONE
-hi TabLineFill guifg=#b9355d ctermfg=131 guibg=#17141F ctermbg=234 gui=NONE cterm=NONE
-hi TabLineSel guifg=#29e7ae ctermfg=43 guibg=#17141F ctermbg=234 gui=NONE cterm=NONE
+hi TabLine guifg=#2c313a ctermfg=236 guibg=#17141F ctermbg=234 gui=Italic cterm=Italic
+hi TabLineFill guifg=#17141F ctermfg=234 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TabLineSel guifg=#17141F ctermfg=234 guibg=#e06c75 ctermbg=168 gui=Bold cterm=Bold
 hi link Title ModeMsg
 hi Visual guifg=NONE ctermfg=NONE guibg=#308db8 ctermbg=67 gui=NONE cterm=NONE
 hi link VisualNOS Visual
@@ -118,8 +118,8 @@ hi pythonDecorator guifg=#39dcdc ctermfg=80 guibg=NONE ctermbg=NONE gui=NONE cte
 hi pythonFunction guifg=#39dcdc ctermfg=80 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi pythonComment guifg=#625576 ctermfg=60 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi pythonTodo guifg=#29e7ae ctermfg=43 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi pythonString guifg=#E07D13 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi pythonRawString guifg=#E07D13 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link pythonString String
+hi link pythonRawString String
 hi pythonQuotes guifg=#E07D13 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi pythonTripleQuotes guifg=#625576 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi pythonEscape guifg=#56B6C2 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

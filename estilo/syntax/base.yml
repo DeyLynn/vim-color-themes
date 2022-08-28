@@ -35,9 +35,9 @@ SpellCap: 'lightBlue - u'
 SpellRare: 'gitGreen - u'
 StatusLine: 'grey yellow'
 StatusLineNC: 'foreground background'
-TabLine: 'berryPink background' 
-TabLineFill: 'berryPink background' # unselected tab
-TabLineSel: 'gitGreen background'
+TabLine: 'lightGrey background i' 
+TabLineFill: 'background' # unselected tab
+TabLineSel: 'background lightPink b'
 Title: '@ModeMsg'
 Visual: '- visualSel'
 VisualNOS: '@Visual'
@@ -95,8 +95,8 @@ pythonDecorator: 'lightBlue' # Define
 pythonFunction: 'lightBlue' # Function
 pythonComment: 'midPurple - i' # Comment
 pythonTodo: 'gitGreen' # Todo
-pythonString: 'orange' # String
-pythonRawString: 'orange' # String
+pythonString: '@String' # String
+pythonRawString: '@String' # String
 pythonQuotes: 'orange' # String
 pythonTripleQuotes: 'midPurple' # pythonQuotes
 pythonEscape: 'mutedBlue' # Special

@@ -18,5 +18,5 @@ gitGreen:           '#29e7ae'         # for git repo additions
 grey:               '#151920'         # use for suggestion pmenu
 lightGrey:          '#2c313a'         # use for suggestion pmenu selection
 midPurple:          '#625576'         # use for comments
-activePurple:       '#220525'         # active tabline selection
+menuPurple:         '#1a1824'         # active tabline selection
 pureBlack:          '#000000'     

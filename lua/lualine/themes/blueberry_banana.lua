@@ -8,7 +8,7 @@ local colors = {
   berryPink = '#b9355d',
   green = '#29e7ae',
   blue = '#39dcdc',
-  purple = '#220525',
+  purple = '#1a1824',
   grey = '#151920',
   lightGrey = '#495162'
 }
