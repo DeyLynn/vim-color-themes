@@ -1,6 +1,6 @@
 # BASE UI
 ColorColumn: '- cursorLine'
-Conceal: 'midPurple'
+Conceal: '-'
 Cursor: 'pureBlack foreground'
 CursorIM: '@Cursor'
 CursorColumn: '- cursorLine'
@@ -36,7 +36,7 @@ SpellRare: 'gitGreen - u'
 StatusLine: 'grey yellow'
 StatusLineNC: 'foreground background'
 TabLine: 'lightGrey background i' 
-TabLineFill: 'background' # unselected tab
+TabLineFill: 'background background' # unselected tab
 TabLineSel: 'background lightPink b'
 Title: '@ModeMsg'
 Visual: '- visualSel'
@@ -186,3 +186,125 @@ javaScriptDeprecated: '' # Exception
 javaScriptReserved: '' # Keyword
 javaScriptDebug: '' # Debug
 javaScriptConstant: 'yellow background i' # Label
+
+
+
+#CSS
+cssComment: '' # Comment
+cssVendor: '' # Comment
+cssHacks: '' # Comment
+cssTagName: 'yellow' # Statement
+cssDeprecated: '' # Error
+cssSelectorOp: 'orange' # Special
+cssSelectorOp2: '' # Special
+cssAttrComma: 'midBlue' # Special
+cssAnimationProp: '' # cssProp
+cssBackgroundProp: '' # cssProp
+cssBorderProp: '' # cssProp
+cssBoxProp: '' # cssProp
+cssColorProp: '' # cssProp
+cssContentForPagedMediaProp: '' # cssProp
+cssDimensionProp: '' # cssProp
+cssFlexibleBoxProp: '' # cssProp
+cssFontProp: '' # cssProp
+cssGeneratedContentProp: '' # cssProp
+cssGridProp: '' # cssProp
+cssHyerlinkProp: '' # cssProp
+cssLineboxProp: '' # cssProp
+cssListProp: '' # cssProp
+cssMarqueeProp: '' # cssProp
+cssMultiColumnProp: '' # cssProp
+cssPagedMediaProp: '' # cssProp
+cssPositioningProp: '' # cssProp
+cssPrintProp: '' # cssProp
+cssRubyProp: '' # cssProp
+cssSpeechProp: '' # cssProp
+cssTableProp: '' # cssProp
+cssTextProp: '' # cssProp
+cssTransformProp: '' # cssProp
+cssTransitionProp: '' # cssProp
+cssUIProp: '' # cssProp
+cssIEUIProp: '' # cssProp
+cssAuralProp: '' # cssProp
+cssRenderProp: '' # cssProp
+cssMobileTextProp: '' # cssProp
+cssAnimationAttr: '' # cssAttr
+cssBackgroundAttr: '' # cssAttr
+cssBorderAttr: '' # cssAttr
+cssBoxAttr: '' # cssAttr
+cssContentForPagedMediaAttr: '' # cssAttr
+cssDimensionAttr: '' # cssAttr
+cssFlexibleBoxAttr: '' # cssAttr
+cssFontAttr: '' # cssAttr
+cssGeneratedContentAttr: '' # cssAttr
+cssGridAttr: '' # cssAttr
+cssHyerlinkAttr: '' # cssAttr
+cssLineboxAttr: '' # cssAttr
+cssListAttr: '' # cssAttr
+cssMarginAttr: '' # cssAttr
+cssMarqueeAttr: '' # cssAttr
+cssMultiColumnAttr: '' # cssAttr
+cssPaddingAttr: '' # cssAttr
+cssPagedMediaAttr: '' # cssAttr
+cssPositioningAttr: '' # cssAttr
+cssGradientAttr: '' # cssAttr
+cssPrintAttr: '' # cssAttr
+cssRubyAttr: '' # cssAttr
+cssSpeechAttr: '' # cssAttr
+cssTableAttr: '' # cssAttr
+cssTextAttr: '' # cssAttr
+cssTransformAttr: '' # cssAttr
+cssTransitionAttr: '' # cssAttr
+cssUIAttr: '' # cssAttr
+cssIEUIAttr: '' # cssAttr
+cssAuralAttr: '' # cssAttr
+cssRenderAttr: '' # cssAttr
+cssCommonAttr: '' # cssAttr
+cssPseudoClassId: '' # PreProc
+cssPseudoClassLang: '' # Constant
+cssValueLength: 'orange' # Number
+cssValueInteger: 'orange' # Number
+cssValueNumber: 'orange' # Number
+cssValueAngle: '' # Number
+cssValueTime: '' # Number
+cssValueFrequency: '' # Number
+cssFunction: '' # Constant
+cssURL: '' # String
+cssFunctionName: 'lightBlue' # Function
+cssFunctionComma: '@cssAttrComma' # Function
+cssColor: 'gitGreen' # Constant
+cssIdentifier: 'lightBlue' # Function
+cssInclude: '' # Include
+cssIncludeKeyword: '' # atKeyword
+cssImportant: '' # Special
+cssBraces: 'berryPink - b' # Function
+cssBraceError: '' # Error
+cssError: '' # Error
+cssUnicodeEscape: '' # Special
+cssStringQQ: '' # String
+cssStringQ: '' # String
+cssAttributeSelector: '' # String
+cssMedia: '' # atKeyword
+cssMediaType: '' # Special
+cssMediaComma: '@cssAttrComma' # Normal
+cssMediaKeyword: '' # Statement
+cssMediaProp: '' # cssProp
+cssMediaAttr: '' # cssAttr
+cssPage: '' # atKeyword
+cssPagePseudo: '' # PreProc
+cssPageMargin: '' # atKeyword
+cssPageProp: '' # cssProp
+cssKeyFrame: '' # atKeyword
+cssKeyFrameSelector: '' # Constant
+cssFontDescriptor: '' # Special
+cssFontDescriptorFunction: '' # Constant
+cssFontDescriptorProp: '' # cssProp
+cssFontDescriptorAttr: '' # cssAttr
+cssUnicodeRange: '' # Constant
+cssClassName: 'lightBlue' # Function (Changed)
+cssClassNameDot: 'mutedBlue' # Function
+cssProp: 'foreground - i' # StorageClass
+cssAttr: '' # Constant
+cssUnitDecorators: 'orange' # Number
+cssNoise: '' # Noise
+atKeyword: '' # PreProc

@@ -4,7 +4,7 @@
 " URL: 
 " Author: Dey Lynn
 " License: MIT
-" Last Change: 2022/08/28 08:47
+" Last Change: 2022/08/28 16:32
 " ===============================================================
 
 set background=dark
@@ -28,7 +28,7 @@ endif
 
 let g:blueberry_banana_bold = get(g:, 'blueberry_banana_bold', 0)
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#3F2f45 ctermbg=237 gui=NONE cterm=NONE
-hi Conceal guifg=#625576 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Conceal guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Cursor guifg=#000000 ctermfg=0 guibg=#ECF0C1 ctermbg=255 gui=NONE cterm=NONE
 hi link CursorIM Cursor
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#3F2f45 ctermbg=237 gui=NONE cterm=NONE
@@ -64,7 +64,7 @@ hi SpellRare guifg=#29e7ae ctermfg=43 guibg=NONE ctermbg=NONE gui=underline cter
 hi StatusLine guifg=#151920 ctermfg=234 guibg=#e6c62f ctermbg=184 gui=NONE cterm=NONE
 hi StatusLineNC guifg=#ECF0C1 ctermfg=255 guibg=#17141F ctermbg=234 gui=NONE cterm=NONE
 hi TabLine guifg=#2c313a ctermfg=236 guibg=#17141F ctermbg=234 gui=Italic cterm=Italic
-hi TabLineFill guifg=#17141F ctermfg=234 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TabLineFill guifg=#17141F ctermfg=234 guibg=#17141F ctermbg=234 gui=NONE cterm=NONE
 hi TabLineSel guifg=#17141F ctermfg=234 guibg=#e06c75 ctermbg=168 gui=Bold cterm=Bold
 hi link Title ModeMsg
 hi Visual guifg=NONE ctermfg=NONE guibg=#308db8 ctermbg=67 gui=NONE cterm=NONE
@@ -177,6 +177,22 @@ hi javaScriptType guifg=#b9355d ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cte
 hi javaScriptBoolean guifg=#b9355d ctermfg=131 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi javaScriptLabel guifg=#29e7ae ctermfg=43 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi javaScriptConstant guifg=#e6c62f ctermfg=184 guibg=#17141F ctermbg=234 gui=Italic cterm=Italic
+hi cssTagName guifg=#e6c62f ctermfg=184 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssSelectorOp guifg=#E07D13 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssAttrComma guifg=#314365 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssValueLength guifg=#E07D13 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssValueInteger guifg=#E07D13 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssValueNumber guifg=#E07D13 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssFunctionName guifg=#39dcdc ctermfg=80 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link cssFunctionComma cssAttrComma
+hi cssColor guifg=#29e7ae ctermfg=43 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssIdentifier guifg=#39dcdc ctermfg=80 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssBraces guifg=#b9355d ctermfg=131 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi link cssMediaComma cssAttrComma
+hi cssClassName guifg=#39dcdc ctermfg=80 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssClassNameDot guifg=#56B6C2 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssProp guifg=#ECF0C1 ctermfg=255 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi cssUnitDecorators guifg=#E07D13 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)
