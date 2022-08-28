@@ -1,6 +1,6 @@
 # BASE UI
 ColorColumn: '- cursorLine'
-Conceal: 'activePurple'
+Conceal: 'midPurple'
 Cursor: 'pureBlack foreground'
 CursorIM: '@Cursor'
 CursorColumn: '- cursorLine'
@@ -43,32 +43,32 @@ Visual: '- visualSel'
 VisualNOS: '@Visual'
 WarningMsg: 'orange background'
 WildMenu: 'foreground grey'
-EndOfBuffer: 'darkBlue background'
-NonText: '@EndOfBuffer'
+EndOfBuffer: 'background background'
+NonText: 'background background'
 # BASE SYNTAX
 Comment: 'midPurple -'
 Constant: 'yellow'
-String: 'orange' # Constant
+String: 'orange - i' # Constant
 Character: '@Constant' # Constant
 Boolean: 'mutedBlue' # Constant
 Number: 'orange' # Constant
 Float: '@Number' # Constant
-Identifier: 'yellow'
+Identifier: 'lightBlue'
 Function: 'lightBlue' # Identifier
 Statement: 'yellow'
-Conditional: 'yellow' # Statement
+Conditional: 'orange' # Statement
 Repeat: 'yellow' # Statement
-Label: 'berryPink' # Statement
+Label: 'yellow' # Statement
 Operator: 'berryPink' # Statement
 Keyword: 'yellow' # Statement
 Exception: 'yellow' # Statement
 PreProc: 'lightPink'
-Include: 'yellow' # PreProc
+Include: 'lightPink' # PreProc
 Define: 'yellow' # PreProc
 Macro: '@PreProc' # PreProc
 PreCondit: '@PreProc' # PreProc
 Type: 'yellow'
-StorageClass: 'lightPink' # Type
+StorageClass: 'berryPink' # Type
 Structure: '@Type' # Type
 Typedef: '@lightPink' # Type
 Special: 'orange'
@@ -86,14 +86,14 @@ Todo: 'gitGreen'
 
 # python
 pythonStatement: 'yellow' # Statement
-pythonConditional: 'yellow' # Conditional
-pythonRepeat: 'yellow' # Repeat
+pythonConditional: 'orange' # Conditional
+pythonRepeat: 'orange' # Repeat
 pythonOperator: 'berryPink' # Operator
 pythonException: 'yellow' # Exception
 pythonInclude: 'yellow' # Include
-pythonDecorator: 'mutedBlue' # Define
+pythonDecorator: 'lightBlue' # Define
 pythonFunction: 'lightBlue' # Function
-pythonComment: 'midPurple' # Comment
+pythonComment: 'midPurple - i' # Comment
 pythonTodo: 'gitGreen' # Todo
 pythonString: 'orange' # String
 pythonRawString: 'orange' # String
@@ -101,8 +101,88 @@ pythonQuotes: 'orange' # String
 pythonTripleQuotes: 'midPurple' # pythonQuotes
 pythonEscape: 'mutedBlue' # Special
 pythonNumber: 'orange' # Number
-pythonBuiltin: 'berryPink' # Function
+pythonBuiltin: 'berryPink - i' # Function
 pythonExceptions: '@pythonException' # Structure
 pythonSpaceError: 'berryPink background u' # Error
 pythonDoctest: 'midPurple' # Special
 pythonDoctestValue: 'lightPink' # Define
+
+
+
+# html
+htmlTag: 'foreground' # Function
+htmlEndTag: '@htmlTag' # Identifier
+htmlArg: 'lightPink' # Type
+htmlTagName: 'mutedBlue' # htmlStatement
+htmlValue: 'lightBlue' # String
+htmlH1: 'berryPink' # Title
+htmlH2: 'lightPink' # htmlH1
+htmlH3: 'lightPink' # htmlH2
+htmlH4: 'lightPink' # htmlH3
+htmlH5: 'lightPink' # htmlH4
+htmlH6: 'lightPink' # htmlH5
+htmlHead: '@htmlTag' # PreProc
+htmlTitle: 'yellow' # Title
+htmlBoldItalicUnderline: 'lightPink' # htmlBoldUnderlineItalic
+htmlUnderlineBold: 'lightPink' # htmlBoldUnderline
+htmlUnderlineItalicBold: 'lightPink' # htmlBoldUnderlineItalic
+htmlUnderlineBoldItalic: 'lightPink' # htmlBoldUnderlineItalic
+htmlItalicUnderline: 'lightPink' # htmlUnderlineItalic
+htmlItalicBold: 'lightPink' # htmlBoldItalic
+htmlItalicBoldUnderline: 'lightPink' # htmlBoldUnderlineItalic
+htmlItalicUnderlineBold: 'lightPink' # htmlBoldUnderlineItalic
+htmlLink: 'gitGreen' # Underlined
+htmlString: 'orange' # String
+htmlComment: 'foreground' # Comment
+htmlCssStyleComment: '@htmlComment' # Comment
+
+
+
+#yaml
+yamlTodo: 'lightPink' # Todo
+yamlString: 'lightPink' # String
+yamlFlowString: 'foreground' # yamlString
+yamlFlowStringDelimiter: 'lightPink' # yamlString
+yamlKeyValueDelimiter: 'berryPink' # Special
+yamlConstant: 'midBlue' # Constant
+yamlBool: 'orange' # yamlConstant
+yamlAnchor: 'midPurple' # Type
+yamlAlias: 'foreground' # Type
+yamlNodeTag: 'foreground' # Type
+yamlInteger: 'orange' # Number
+yamlFloat: 'orange' # Float
+yamlTimestamp: 'gitGreen' # Number
+
+#javascript
+javaScriptComment: '- - i' # Comment
+javaScriptLineComment: '- - i' # Comment
+javaScriptCommentTodo: '' # Todo
+javaScriptSpecial: '' # Special
+javaScriptStringS: '- - i' # String
+javaScriptStringD: '- - i' # String
+javaScriptCharacter: '' # Character
+javaScriptSpecialCharacter: '' # javaScriptSpecial
+javaScriptNumber: '' # javaScriptValue
+javaScriptConditional: 'orange' # Conditional
+javaScriptRepeat: '' # Repeat
+javaScriptBranch: 'orange' # Conditional
+javaScriptOperator: '' # Operator
+javaScriptType: 'berryPink' # Type
+javaScriptStatement: '' # Statement
+javaScriptFunction: '' # Function
+javaScriptBraces: '' # Function
+javaScriptError: '' # Error
+javaScriptParensError: '' # Error
+javaScriptNull: '' # Keyword
+javaScriptBoolean: 'berryPink - i' # Boolean
+javaScriptRegexpString: '' # String
+javaScriptIdentifier: '' # Identifier
+javaScriptLabel: 'gitGreen' # Label
+javaScriptException: '' # Exception
+javaScriptMessage: '' # Keyword
+javaScriptGlobal: '' # Keyword
+javaScriptMember: '' # Keyword
+javaScriptDeprecated: '' # Exception
+javaScriptReserved: '' # Keyword
+javaScriptDebug: '' # Debug
+javaScriptConstant: 'yellow background i' # Label

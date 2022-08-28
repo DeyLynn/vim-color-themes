@@ -2,7 +2,7 @@
 background:         '#17141F'         # background color
 foreground:         '#ECF0C1'
 visualSel:          '#308db8'
-cursorLine:         '#3f2f45'        # defines cursor-line bg color
+cursorLine:         '#3F2f45'        # defines cursor-line bg color
 
 # Base Colors
 yellow:             '#e6c62f'         # controlflow/conditional, builtin obj, function
