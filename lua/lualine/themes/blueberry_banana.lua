@@ -10,26 +10,28 @@ local colors = {
   blue = '#39dcdc',
   purple = '#1a1824',
   grey = '#151920',
-  lightGrey = '#495162'
+  lightGrey = '#495162',
+  orange = '#E07D13',
+  midPurple = '#625576';
 }
 
 blueberry_banana.normal = {
   -- gui parameter is optional and behaves the same way as in vim's highlight command
-  a = {bg = colors.lightGrey, fg = colors.black, gui = 'bold'},
-  b = {bg = colors.grey, fg = colors.white},
-  c = {bg = colors.lightGrey, fg = colors.black}
+  a = {bg = colors.yellow, fg = colors.black, gui = 'bold'},
+  b = {bg = colors.purple, fg = colors.white},
+  c = {bg = colors.yellow, fg = colors.black}
 }
 
 blueberry_banana.insert = {
-  a = {bg = colors.yellow, fg = colors.black, gui = 'bold'},
+  a = {bg = colors.berryPink, fg = colors.black, gui = 'bold'},
   b = {bg = colors.grey, fg = colors.white},
-  c = {bg = colors.yellow, fg = colors.black}
+  c = {bg = colors.berryPink, fg = colors.black}
 }
 
 blueberry_banana.visual = {
-  a = {bg = colors.yellow, fg = colors.black, gui = 'bold'},
+  a = {bg = colors.orange, fg = colors.black, gui = 'bold'},
   b = {bg = colors.grey, fg = colors.white},
-  c = {bg = colors.yellow, fg = colors.black}
+  c = {bg = colors.orange, fg = colors.black}
 }
 
 blueberry_banana.replace = {
@@ -49,9 +51,9 @@ blueberry_banana.command = {
 blueberry_banana.terminal = blueberry_banana.normal
 
 blueberry_banana.inactive = {
-  a = {bg = colors.black, fg = colors.white, gui = 'bold'},
-  b = {bg = colors.black, fg = colors.white},
-  c = {bg = colors.black, fg = colors.white}
+  a = {bg = colors.black, fg = colors.midPurple, gui = 'bold'},
+  b = {bg = colors.berryPink, fg = colors.white},
+  c = {bg = colors.black, fg = colors.midPurple}
 }
 
 -- lualine.theme = spaceduck
