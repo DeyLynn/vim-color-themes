@@ -4,7 +4,7 @@
 " URL: 
 " Author: Dey Lynn
 " License: MIT
-" Last Change: 2022/08/28 16:32
+" Last Change: 2022/09/08 11:12
 " ===============================================================
 
 set background=dark
@@ -152,7 +152,7 @@ hi htmlItalicBoldUnderline guifg=#e06c75 ctermfg=168 guibg=NONE ctermbg=NONE gui
 hi htmlItalicUnderlineBold guifg=#e06c75 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlLink guifg=#29e7ae ctermfg=43 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlString guifg=#E07D13 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi htmlComment guifg=#ECF0C1 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi htmlComment guifg=#625576 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link htmlCssStyleComment htmlComment
 hi yamlTodo guifg=#e06c75 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlString guifg=#e06c75 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -193,6 +193,8 @@ hi cssClassName guifg=#39dcdc ctermfg=80 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi cssClassNameDot guifg=#56B6C2 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssProp guifg=#ECF0C1 ctermfg=255 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi cssUnitDecorators guifg=#E07D13 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NvimTreeNormal guifg=#ECF0C1 ctermfg=255 guibg=#1a1824 ctermbg=234 gui=NONE cterm=NONE
+hi NvimTreeEndOfBuffer guifg=#1a1824 ctermfg=234 guibg=#1a1824 ctermbg=234 gui=NONE cterm=NONE
 
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)

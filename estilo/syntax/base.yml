@@ -133,7 +133,7 @@ htmlItalicBoldUnderline: 'lightPink' # htmlBoldUnderlineItalic
 htmlItalicUnderlineBold: 'lightPink' # htmlBoldUnderlineItalic
 htmlLink: 'gitGreen' # Underlined
 htmlString: 'orange' # String
-htmlComment: 'foreground' # Comment
+htmlComment: 'midPurple' # Comment
 htmlCssStyleComment: '@htmlComment' # Comment
 
 
@@ -308,3 +308,8 @@ cssAttr: '' # Constant
 cssUnitDecorators: 'orange' # Number
 cssNoise: '' # Noise
 atKeyword: '' # PreProc
+
+
+# Nvim-tree
+NvimTreeNormal: 'foreground menuPurple'
+NvimTreeEndOfBuffer: 'menuPurple menuPurple'
