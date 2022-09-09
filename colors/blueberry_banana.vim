@@ -4,7 +4,7 @@
 " URL: 
 " Author: Dey Lynn
 " License: MIT
-" Last Change: 2022/09/08 18:56
+" Last Change: 2022/09/08 21:38
 " ===============================================================
 
 set background=dark
@@ -40,7 +40,7 @@ hi DiffChange guifg=#29e7ae ctermfg=43 guibg=#308db8 ctermbg=67 gui=NONE cterm=N
 hi DiffDelete guifg=#c24038 ctermfg=131 guibg=#308db8 ctermbg=67 gui=NONE cterm=NONE
 hi DiffText guifg=#39dcdc ctermfg=80 guibg=#308db8 ctermbg=67 gui=NONE cterm=NONE
 hi ErrorMsg guifg=#c24038 ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi VertSplit guifg=#e6c62f ctermfg=184 guibg=#17141F ctermbg=234 gui=NONE cterm=NONE
+hi VertSplit guifg=#E07D13 ctermfg=172 guibg=#17141F ctermbg=234 gui=NONE cterm=NONE
 hi Folded guifg=#3F2f45 ctermfg=237 guibg=#17141F ctermbg=234 gui=NONE cterm=NONE
 hi FoldColumn guifg=#3F2f45 ctermfg=237 guibg=#17141F ctermbg=234 gui=NONE cterm=NONE
 hi SignColumn guifg=#625576 ctermfg=60 guibg=#17141F ctermbg=234 gui=NONE cterm=NONE
