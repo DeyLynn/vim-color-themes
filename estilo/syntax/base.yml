@@ -1,4 +1,4 @@
-# BASE UI
+#orange BASE UI
 ColorColumn: '- cursorLine'
 Conceal: '-'
 Cursor: 'pureBlack foreground'
@@ -56,7 +56,7 @@ Float: '@Number' # Constant
 Identifier: 'lightBlue'
 Function: 'lightBlue' # Identifier
 Statement: 'yellow'
-Conditional: 'orange' # Statement
+Conditional: 'yellow' # Statement
 Repeat: 'yellow' # Statement
 Label: 'yellow' # Statement
 Operator: 'berryPink' # Statement
@@ -86,8 +86,8 @@ Todo: 'gitGreen'
 
 # python
 pythonStatement: 'yellow' # Statement
-pythonConditional: 'orange' # Conditional
-pythonRepeat: 'orange' # Repeat
+pythonConditional: 'yellow' # Conditional
+pythonRepeat: 'yellow' # Repeat
 pythonOperator: 'berryPink' # Operator
 pythonException: 'yellow' # Exception
 pythonInclude: 'yellow' # Include
@@ -95,7 +95,7 @@ pythonDecorator: 'lightBlue' # Define
 pythonFunction: 'lightBlue' # Function
 pythonComment: 'midPurple - i' # Comment
 pythonTodo: 'gitGreen' # Todo
-pythonString: '@String' # String
+pythonString: '@String - i' # String
 pythonRawString: '@String' # String
 pythonQuotes: 'orange' # String
 pythonTripleQuotes: 'midPurple' # pythonQuotes
@@ -163,9 +163,9 @@ javaScriptStringD: '- - i' # String
 javaScriptCharacter: '' # Character
 javaScriptSpecialCharacter: '' # javaScriptSpecial
 javaScriptNumber: '' # javaScriptValue
-javaScriptConditional: 'orange' # Conditional
-javaScriptRepeat: '' # Repeat
-javaScriptBranch: 'orange' # Conditional
+javaScriptConditional: 'yellow' # Conditional
+javaScriptRepeat: 'yellow' # Repeat
+javaScriptBranch: 'yellow' # Conditional
 javaScriptOperator: '' # Operator
 javaScriptType: 'berryPink' # Type
 javaScriptStatement: '' # Statement
@@ -197,7 +197,7 @@ cssTagName: 'yellow' # Statement
 cssDeprecated: '' # Error
 cssSelectorOp: 'orange' # Special
 cssSelectorOp2: '' # Special
-cssAttrComma: 'midBlue' # Special
+cssAttrComma: 'berryPink' # Special
 cssAnimationProp: '' # cssProp
 cssBackgroundProp: '' # cssProp
 cssBorderProp: '' # cssProp

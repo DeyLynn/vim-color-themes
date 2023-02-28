@@ -18,7 +18,7 @@ local colors = {
 blueberry_banana.normal = {
   -- gui parameter is optional and behaves the same way as in vim's highlight command
   a = {bg = colors.yellow, fg = colors.black, gui = 'bold'},
-  b = {bg = colors.purple, fg = colors.white},
+  b = {bg = colors.yellow, fg = colors.black},
   c = {bg = colors.yellow, fg = colors.black}
 }
 

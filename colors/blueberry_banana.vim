@@ -4,7 +4,7 @@
 " URL: 
 " Author: Dey Lynn
 " License: MIT
-" Last Change: 2022/09/08 21:38
+" Last Change: 2023/02/28 15:16
 " ===============================================================
 
 set background=dark
@@ -83,7 +83,7 @@ hi link Float Number
 hi Identifier guifg=#39dcdc ctermfg=80 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Function guifg=#39dcdc ctermfg=80 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Statement guifg=#e6c62f ctermfg=184 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Conditional guifg=#E07D13 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Conditional guifg=#e6c62f ctermfg=184 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Repeat guifg=#e6c62f ctermfg=184 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Label guifg=#e6c62f ctermfg=184 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Operator guifg=#b9355d ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -109,8 +109,8 @@ hi Ignore guifg=#c24038 ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Error guifg=#c24038 ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Todo guifg=#29e7ae ctermfg=43 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi pythonStatement guifg=#e6c62f ctermfg=184 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi pythonConditional guifg=#E07D13 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi pythonRepeat guifg=#E07D13 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi pythonConditional guifg=#e6c62f ctermfg=184 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi pythonRepeat guifg=#e6c62f ctermfg=184 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi pythonOperator guifg=#b9355d ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi pythonException guifg=#e6c62f ctermfg=184 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi pythonInclude guifg=#e6c62f ctermfg=184 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -171,15 +171,16 @@ hi javaScriptComment guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=Italic 
 hi javaScriptLineComment guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi javaScriptStringS guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi javaScriptStringD guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
-hi javaScriptConditional guifg=#E07D13 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi javaScriptBranch guifg=#E07D13 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi javaScriptConditional guifg=#e6c62f ctermfg=184 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi javaScriptRepeat guifg=#e6c62f ctermfg=184 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi javaScriptBranch guifg=#e6c62f ctermfg=184 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi javaScriptType guifg=#b9355d ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi javaScriptBoolean guifg=#b9355d ctermfg=131 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi javaScriptLabel guifg=#29e7ae ctermfg=43 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi javaScriptConstant guifg=#e6c62f ctermfg=184 guibg=#17141F ctermbg=234 gui=Italic cterm=Italic
 hi cssTagName guifg=#e6c62f ctermfg=184 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssSelectorOp guifg=#E07D13 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cssAttrComma guifg=#314365 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssAttrComma guifg=#b9355d ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssValueLength guifg=#E07D13 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssValueInteger guifg=#E07D13 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssValueNumber guifg=#E07D13 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
