@@ -18,7 +18,7 @@ local colors = {
 blueberry_banana.normal = {
   -- gui parameter is optional and behaves the same way as in vim's highlight command
   a = {bg = colors.yellow, fg = colors.black, gui = 'bold'},
-  b = {bg = colors.yellow, fg = colors.black},
+  b = {bg = colors.purple, fg = colors.white},
   c = {bg = colors.yellow, fg = colors.black}
 }
 
@@ -51,9 +51,9 @@ blueberry_banana.command = {
 blueberry_banana.terminal = blueberry_banana.normal
 
 blueberry_banana.inactive = {
-  a = {bg = colors.black, fg = colors.midPurple, gui = 'bold'},
-  b = {bg = colors.berryPink, fg = colors.white},
-  c = {bg = colors.black, fg = colors.midPurple}
+  a = {bg = colors.yellow, fg = colors.black, gui = 'bold'},
+  b = {bg = colors.purple, fg = colors.white},
+  c = {bg = colors.yellow, fg = colors.black}
 }
 
 -- lualine.theme = spaceduck
