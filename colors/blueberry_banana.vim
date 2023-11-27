@@ -4,7 +4,7 @@
 " URL: 
 " Author: Dey Lynn
 " License: MIT
-" Last Change: 2023/02/28 15:21
+" Last Change: 2023/11/27 13:53
 " ===============================================================
 
 set background=dark
@@ -75,7 +75,7 @@ hi EndOfBuffer guifg=#17141F ctermfg=234 guibg=#17141F ctermbg=234 gui=NONE cter
 hi NonText guifg=#17141F ctermfg=234 guibg=#17141F ctermbg=234 gui=NONE cterm=NONE
 hi Comment guifg=#625576 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Constant guifg=#e6c62f ctermfg=184 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi String guifg=#E07D13 ctermfg=172 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi String guifg=#e06c75 ctermfg=168 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi link Character Constant
 hi Boolean guifg=#56B6C2 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Number guifg=#E07D13 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -98,7 +98,7 @@ hi Type guifg=#e6c62f ctermfg=184 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StorageClass guifg=#b9355d ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link Structure Type
 hi link Typedef lightPink
-hi Special guifg=#E07D13 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Special guifg=#e06c75 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link SpecialChar Special
 hi link Tag Special
 hi Delimiter guifg=#E07D13 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

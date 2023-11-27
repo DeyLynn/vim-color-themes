@@ -48,7 +48,7 @@ NonText: 'background background'
 # BASE SYNTAX
 Comment: 'midPurple -'
 Constant: 'yellow'
-String: 'orange - i' # Constant
+String: 'lightPink - i' # Constant
 Character: '@Constant' # Constant
 Boolean: 'mutedBlue' # Constant
 Number: 'orange' # Constant
@@ -71,7 +71,7 @@ Type: 'yellow'
 StorageClass: 'berryPink' # Type
 Structure: '@Type' # Type
 Typedef: '@lightPink' # Type
-Special: 'orange'
+Special: 'lightPink'
 SpecialChar: '@Special' # Special
 Tag: '@Special' # Special
 Delimiter: 'orange' # Special
