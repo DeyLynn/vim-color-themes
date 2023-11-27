@@ -48,7 +48,7 @@ NonText: 'background background'
 # BASE SYNTAX
 Comment: 'midPurple -'
 Constant: 'yellow'
-String: 'lightPink - i' # Constant
+String: 'orange - i' # Constant
 Character: '@Constant' # Constant
 Boolean: 'mutedBlue' # Constant
 Number: 'orange' # Constant
