@@ -4,7 +4,7 @@
 " URL: 
 " Author: Dey Lynn
 " License: MIT
-" Last Change: 2023/11/27 13:55
+" Last Change: 2023/11/27 13:56
 " ===============================================================
 
 set background=dark
@@ -98,7 +98,7 @@ hi Type guifg=#e6c62f ctermfg=184 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StorageClass guifg=#b9355d ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link Structure Type
 hi link Typedef lightPink
-hi Special guifg=#e06c75 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Special guifg=#39dcdc ctermfg=80 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link SpecialChar Special
 hi link Tag Special
 hi Delimiter guifg=#E07D13 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

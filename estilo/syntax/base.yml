@@ -71,7 +71,7 @@ Type: 'yellow'
 StorageClass: 'berryPink' # Type
 Structure: '@Type' # Type
 Typedef: '@lightPink' # Type
-Special: 'lightPink'
+Special: 'lightBlue'
 SpecialChar: '@Special' # Special
 Tag: '@Special' # Special
 Delimiter: 'orange' # Special
